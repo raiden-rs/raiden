@@ -27,7 +27,7 @@ log = "0.4"
 pretty_env_logger = "0.4"
 
 [dev-dependencies]
-pretty_assertions = "0.7.1"
+pretty_assertions = "0.7.2"
 tokio = "1.4.0"
 insta = "1.7.0"
 
