@@ -9,7 +9,7 @@ edition = "2018"
 [dependencies]
 raiden-derive = { version = "*", path = "../raiden-derive" }
 rusoto_credential = "0.46"
-rusoto_core_default = { package = "rusoto_core", version = "0.46", optional = true }
+rusoto_core_default = { package = "rusoto_core", version = "0.47", optional = true }
 rusoto_core_rustls = { package = "rusoto_core", version = "0.46", default_features = false, features=["rustls"], optional = true }
 rusoto_dynamodb_default = { package = "rusoto_dynamodb", version = "0.46", features=["serialize_structs"], optional = true }
 rusoto_dynamodb_rustls = { package = "rusoto_dynamodb", version = "0.46", default_features = false, features=["rustls", "serialize_structs"], optional = true }
